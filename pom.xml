@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>de.by2</groupId>
+	<artifactId>spring-cloud-microservices</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>spring-cloud-microservices</name>
+	<description>Brainyoo Cloud</description>
+	<packaging>pom</packaging>
+	<modules>
+		<module>api-gateway</module>
+		<module>currency-conversion-service</module>
+		<module>currency-exchange-service</module>
+		<module>naming-server</module>
+	</modules>
+</project>
