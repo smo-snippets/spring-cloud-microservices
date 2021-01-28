@@ -48,6 +48,12 @@
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 
+<!-- 		<dependency> -->
+<!-- 			<groupId>de.smotastic</groupId> -->
+<!-- 			<artifactId>keycloak-resource-server-config</artifactId> -->
+<!-- 			<version>${project.version}</version> -->
+<!-- 		</dependency> -->
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
