@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import de.smotastic.microservices.currencyconversion.domain.CurrencyConversionService;
-import de.smotastic.microservices.currencyconversion.domain.ports.CurrencyExchangePort;
+import de.smotastic.microservices.currencyconversion.domain.port.CurrencyExchangePort;
 import de.smotastic.microservices.currencyconversion.domain.usecase.MultiplyCurrencyExchangeUseCase;
 
 @Configuration

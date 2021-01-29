@@ -1,4 +1,4 @@
-package de.smotastic.microservices.currencyexchange.domain.ports;
+package de.smotastic.microservices.currencyexchange.domain.port;
 
 import de.smotastic.microservices.currencyexchange.domain.model.CurrencyExchange;
 

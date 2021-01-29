@@ -2,7 +2,7 @@ package de.smotastic.microservices.currencyconversion.domain;
 
 import de.smotastic.microservices.currencyconversion.domain.model.CurrencyConversion;
 import de.smotastic.microservices.currencyconversion.domain.model.MultiplyCurrencyExchangeUseCaseCommand;
-import de.smotastic.microservices.currencyconversion.domain.ports.CurrencyExchangePort;
+import de.smotastic.microservices.currencyconversion.domain.port.CurrencyExchangePort;
 import de.smotastic.microservices.currencyconversion.domain.usecase.MultiplyCurrencyExchangeUseCase;
 import lombok.RequiredArgsConstructor;
 

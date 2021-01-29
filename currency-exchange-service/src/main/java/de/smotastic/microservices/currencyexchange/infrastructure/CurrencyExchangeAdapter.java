@@ -1,7 +1,7 @@
 package de.smotastic.microservices.currencyexchange.infrastructure;
 
 import de.smotastic.microservices.currencyexchange.domain.model.CurrencyExchange;
-import de.smotastic.microservices.currencyexchange.domain.ports.CurrencyExchangePort;
+import de.smotastic.microservices.currencyexchange.domain.port.CurrencyExchangePort;
 import de.smotastic.microservices.currencyexchange.infrastructure.entity.CurrencyExchangeEntity;
 import lombok.RequiredArgsConstructor;
 
