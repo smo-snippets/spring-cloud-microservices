@@ -1,4 +1,4 @@
-package de.smotastic.microservices.currencyconversionservice;
+package de.smotastic.microservices;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

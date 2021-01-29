@@ -1,4 +1,4 @@
-package de.smotastic.microservices.currencyconversionservice;
+package de.smotastic.microservices;
 
 import java.math.BigDecimal;
 

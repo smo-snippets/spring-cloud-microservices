@@ -11,5 +11,7 @@
 	<modules>
 		<module>keycloak-resource-server-config</module>
 		<module>feign-token-relay-interceptor</module>
+		<module>hexagonal-core</module>
+		
 	</modules>
 </project>

@@ -1,4 +1,4 @@
-package de.smotastic.microservices.currencyexchangeservice;
+package de.smotastic.microservices.core.infrastructure;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;

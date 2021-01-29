@@ -1,4 +1,4 @@
-package de.smotastic.microservices.currencyconversionservice;
+package de.smotastic.microservices.domain.currencyconversion.application;
 
 import java.math.BigDecimal;
 import java.util.HashMap;
@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
+
+import de.smotastic.microservices.CurrencyConversion;
+import de.smotastic.microservices.CurrencyExchangeProxy;
 
 @RestController
 public class CurrencyConversionController {

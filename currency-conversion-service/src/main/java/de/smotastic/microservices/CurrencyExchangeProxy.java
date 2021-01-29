@@ -1,4 +1,4 @@
-package de.smotastic.microservices.currencyconversionservice;
+package de.smotastic.microservices;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
