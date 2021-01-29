@@ -1,8 +1,10 @@
-package de.smotastic.microservices;
+package de.smotastic.microservices.currencyconversion.infrastructure;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+
+import de.smotastic.microservices.currencyconversion.domain.model.CurrencyConversion;
 
 //@FeignClient(name="currency-exchange", url="localhost:8000")
 @FeignClient(name = "currency-exchange")
