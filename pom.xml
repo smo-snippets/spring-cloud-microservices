@@ -8,6 +8,7 @@
 	<description>Smotastic Cloud</description>
 	<packaging>pom</packaging>
 	<modules>
+		<module>core</module>
 		<module>api-gateway</module>
 		<module>currency-conversion-service</module>
 		<module>currency-exchange-service</module>
