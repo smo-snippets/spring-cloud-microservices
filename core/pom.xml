@@ -10,6 +10,7 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>keycloak-resource-server-config</module>
+		<module>keycloak-resource-server-test</module>
 		<module>feign-token-relay-interceptor</module>
 		<module>hexagonal-core</module>
 		

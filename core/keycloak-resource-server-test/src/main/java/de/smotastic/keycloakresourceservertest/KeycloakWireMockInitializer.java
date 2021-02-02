@@ -1,4 +1,4 @@
-package de.smotastic.keycloakresourceserverconfig;
+package de.smotastic.keycloakresourceservertest;
 
 import org.springframework.boot.test.util.TestPropertyValues;
 import org.springframework.context.ApplicationContextInitializer;
@@ -8,8 +8,10 @@ import org.springframework.context.event.ContextClosedEvent;
 import com.github.tomakehurst.wiremock.WireMockServer;
 import com.github.tomakehurst.wiremock.client.WireMock;
 import com.github.tomakehurst.wiremock.core.WireMockConfiguration;
-
-public class KeycloakWireMockInitializer implements ApplicationContextInitializer<ConfigurableApplicationContext> {
+/**
+ * https://rieckpil.de/spring-boot-integration-tests-with-wiremock-and-junit-5/
+ */
+class KeycloakWireMockInitializer implements ApplicationContextInitializer<ConfigurableApplicationContext> {
 
 	@Override
 	public void initialize(ConfigurableApplicationContext configurableApplicationContext) {
@@ -28,7 +30,8 @@ public class KeycloakWireMockInitializer implements ApplicationContextInitialize
 		final String keycloakRealm = "testrealm";
 		final String mockServerUrl = "http://localhost:" + wireMockServer.port();
 		final String keycloakBaseUrl = mockServerUrl + "/auth/realms/" + keycloakRealm;
-		TestPropertyValues.of(propName + ":" + keycloakBaseUrl).applyTo(configurableApplicationContext);
+		TestPropertyValues.of(propName + "=" + keycloakBaseUrl).applyTo(configurableApplicationContext);
+		// https://stackoverflow.com/a/60396907/9479695
 		// @formatter:off
 		 String openidConfig = "{\n" + //
                  "  \"issuer\": \"" + keycloakBaseUrl + "\",\n" + //
