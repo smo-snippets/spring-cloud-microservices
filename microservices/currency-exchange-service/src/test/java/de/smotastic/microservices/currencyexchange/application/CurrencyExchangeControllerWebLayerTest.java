@@ -19,6 +19,7 @@ public class CurrencyExchangeControllerWebLayerTest {
 
 	@MockBean
 	ExchangeCurrencyUseCase useCase;
+	
 	@Autowired
 	MockMvc mockMvc;
 	

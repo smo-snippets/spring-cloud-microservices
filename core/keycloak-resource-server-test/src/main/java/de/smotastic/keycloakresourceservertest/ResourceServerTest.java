@@ -16,7 +16,7 @@ import org.springframework.test.context.ContextConfiguration;
 @SpringBootTest
 @AutoConfigureMockMvc
 @ContextConfiguration(initializers = { KeycloakWireMockInitializer.class, TestPropertyInitializer.class })
-public @interface ResourceServerTest {
+public @interface ResourceServerTest { 
 	@AliasFor(annotation = SpringBootTest.class, attribute = "webEnvironment")
 	WebEnvironment webEnvironment() default WebEnvironment.MOCK;
 }

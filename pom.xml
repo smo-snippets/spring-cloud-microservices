@@ -10,8 +10,7 @@
 	<modules>
 		<module>core</module>
 		<module>api-gateway</module>
-		<module>currency-conversion-service</module>
-		<module>currency-exchange-service</module>
+		<module>microservices</module>
 		<module>naming-server</module>
 	</modules>
 </project>
